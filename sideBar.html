@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	
+	<div id="sidebar">
+
+  		<div class="toggle-btn" onclick="togglesidebar()">
+    		<span></span>
+    		<span></span>
+    		<span></span>
+  		</div>
+  		
+  		<ul>
+      		<li>Home</li>
+      		<li>About</li>
+      		<li>Contact</li>
+    	</ul>
+	</div>
+
+	<script>
+		function togglesidebar(){
+  			document.getElementById("sidebar").classList.toggle('active');
+		}
+	</script>
+</body>
+</html>
